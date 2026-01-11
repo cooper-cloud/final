@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Interviews — Ore Media</title>
+  <meta name="description" content="Ore Media interviews with junior mining executives." />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <a class="brand" href="index.html" aria-label="Ore Media home">
+          <span class="logo" aria-hidden="true"></span>
+          <span>Ore Media</span>
+        </a>
+
+        <div class="navlinks" role="navigation" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a class="active" href="interviews.html">Interviews</a>
+          <a href="about.html">About</a>
+          <a href="book.html" class="btn primary">Book an Interview</a>
+        </div>
+
+        <a href="book.html" class="btn primary">Book an Interview</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="hcard">
+          <div class="kicker">Interviews</div>
+          <h1 style="margin-top:10px;">Conversations with management teams.</h1>
+          <p class="subhead">
+            Long-form interviews across exploration, development, and capital markets strategy.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:10px;">
+      <div class="container">
+        <div class="video-grid">
+          <article class="card video">
+            <iframe class="embed" src="https://www.youtube.com/embed/VIDEO_ID_1" title="Ore Media Interview 1" allowfullscreen></iframe>
+            <div class="meta">
+              <p class="title">Company Name (TICKER) — Interview Title</p>
+              <p class="sub">Date • Duration • Key topics</p>
+            </div>
+          </article>
+
+          <article class="card video">
+            <iframe class="embed" src="https://www.youtube.com/embed/VIDEO_ID_2" title="Ore Media Interview 2" allowfullscreen></iframe>
+            <div class="meta">
+              <p class="title">Company Name (TICKER) — Interview Title</p>
+              <p class="sub">Date • Duration • Key topics</p>
+            </div>
+          </article>
+
+          <article class="card video">
+            <iframe class="embed" src="https://www.youtube.com/embed/VIDEO_ID_3" title="Ore Media Interview 3" allowfullscreen></iframe>
+            <div class="meta">
+              <p class="title">Company Name (TICKER) — Interview Title</p>
+              <p class="sub">Date • Duration • Key topics</p>
+            </div>
+          </article>
+
+          <!-- Copy/paste another block per interview -->
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <div class="cta-box">
+          <div>
+            <h2 style="margin:0 0 6px;">Request an interview</h2>
+            <p class="lead" style="margin:0;">A structured format designed for serious investors.</p>
+          </div>
+          <a class="btn primary" href="book.html">Book an Interview</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      © <span id="year"></span> Ore Media
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
