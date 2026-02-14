@@ -7,22 +7,21 @@
   <meta name="description" content="About Ore Media — long-form interviews focused on junior mining and capital markets." />
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
+
 <body>
   <header class="header">
     <div class="container">
-      <nav class="nav">
+      <nav class="nav" aria-label="Primary">
         <a class="brand" href="index.html" aria-label="Ore Media home">
           <img src="assets/logo.png" alt="Ore Media logo" class="logo-img" />
           <span>Ore Media</span>
         </a>
 
-        <!-- LEFT NAV -->
-        <div class="navlinks" role="navigation" aria-label="Primary">
+        <div class="navlinks">
           <a href="index.html">Home</a>
-          <a class="active" href="about.html">About</a>
+          <a class="active" href="about.html" aria-current="page">About</a>
         </div>
 
-        <!-- RIGHT CTA -->
         <a href="book.html" class="btn primary">Book an Interview</a>
       </nav>
     </div>
@@ -34,7 +33,7 @@
       <div class="container">
         <div class="hcard">
           <div class="kicker">About</div>
-          <h1 style="margin-top:10px;">Long-form over loudness.</h1>
+          <h1 class="mt-10">Long-form over loudness.</h1>
           <p class="subhead">
             Ore Media focuses on structured, long-form interviews with junior mining executives.
             The format prioritises assets, strategy, and capital structure — not promotion.
@@ -44,16 +43,14 @@
     </section>
 
     <!-- CORE -->
-    <section class="section" style="padding-top:10px;">
+    <section class="section section-tight-top">
       <div class="container">
         <div class="card">
           <p>
             Interviews are designed to give management teams the space to explain their projects
             and strategy clearly, in a way that remains useful beyond a single news cycle.
           </p>
-          <p class="note">
-            Coverage is selective and focused on substance.
-          </p>
+          <p class="note">Coverage is selective and focused on substance.</p>
         </div>
       </div>
     </section>
@@ -64,19 +61,11 @@
         <div class="two-col">
           <div class="card">
             <h3>Profile</h3>
-
-            <!-- LinkedIn Embed -->
-            <iframe
-              src="https://www.linkedin.com/embed/feed/update/urn:li:share:cooper-john"
-              height="420"
-              width="100%"
-              frameborder="0"
-              allowfullscreen
-              title="LinkedIn profile">
-            </iframe>
-
-            <p class="note" style="margin-top:10px;">
-              <a href="https://www.linkedin.com/in/cooper-john/" target="_blank" rel="noopener">
+            <p class="note">
+              Connect on LinkedIn for updates and interview outreach.
+            </p>
+            <p style="margin: 0;">
+              <a class="btn" href="https://www.linkedin.com/in/cooper-john/" target="_blank" rel="noopener">
                 View LinkedIn profile →
               </a>
             </p>
@@ -85,11 +74,7 @@
           <div class="card">
             <h3>Contact</h3>
             <p>For interview enquiries or general correspondence:</p>
-            <p>
-              <strong>
-                <a href="mailto:cooper@minersmedia.com">cooper@minersmedia.com</a>
-              </strong>
-            </p>
+            <p><strong><a href="mailto:cooper@minersmedia.com">cooper@minersmedia.com</a></strong></p>
           </div>
         </div>
       </div>
