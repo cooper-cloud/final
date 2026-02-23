@@ -1,4 +1,4 @@
-# Ore Media
+# Miners Media
 
 Independent long-form interviews with junior mining executives.
 
