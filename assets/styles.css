@@ -404,3 +404,16 @@ h1{
 
 /* Single-column video grid helper */
 .video-grid-single { grid-template-columns: 1fr; }
+
+.tidycal-fallback-box {
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.tidycal-fallback-box p {
+  margin: 0 0 12px 0;
+}
